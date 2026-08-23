@@ -1,7 +1,7 @@
 <!doctype html>
 
 <html lang="en">
-    <head>
+	<head>
         <meta charset="utf-8">
         <title>Delany's Cool New Website</title>
         <style>
@@ -9,25 +9,37 @@
 				background-color: #88E788;
 			}
 			h2 {
-				background-color: lavender;
+				background-color: #89CFF0;
 			}
 			p {
 				color: purple;
 			}
 		</style>
+	    <script>
+	        var showMe = function()
+	        {
+	            alert("This is the first assignment");
+	        }
+	        window.onload = function () {
+	            document.getElementById("button").onclick = showMe;
+	        }
+	    </script>
 	</head>
-<body style="background-color: #89CFF0;">
-<h1> Programming Fundamentals</h1>
-<h2> Key differences between HTML, CSS, and Programming </h2>
-<p>If we think of a website as a building, HTML would be the structural framing, (supporting beams, foundations) that hold everything in place and give the building a basic shape. CSS would be the paint, trim, and interior design elements. CSS makes the frame look like a real building, rather than just the bare studs of one.<br>
-<p>Programming however, turns buildings (that may be structurally sound and pretty into something people can actually use. It adds the doors, windows, shutters, stairs, and elevators. And more importantly, the hinges and machinery behind them. Programming determines if a door leads to the kitchen or the basement, or which direction you turn the key opens a door and which way locks it, it determines which buttons in the elevator take you to which floors. Programming is the logic that determines what happens in response to an action that a user does. A program checks a variable value and reacts differently depending on what’s stored there. Just like a central air system might heat a building if it was cold outside or cool it if it was hot outside.<br>
-<p>That’s the difference between HTML and CSS and programming. Buildings can have sturdy structures and strong foundations(HTML), with beautiful decor and trim(CSS), but if the doors are all painted shut, the elevators don’t work, and the AC is broken, if the website hasn’t been programmed well, then people can’t really use it. </p>
-
-<h2>The main types of programming constructs, as described in the lesson on fundamentals of programming are</h2>
-<ol>
-<li>Variables (and their values)</li>
-<li>IF statements</li>
-<li>LOOPS</li>
-</ol>
-
-<p style="text-align:center;">Copyright &copy; - 2026 (Delany Burk)</p>
+<body style="background-color: lavender;">
+	<h1 class=”button”> Programming Fundamentals</h1>
+	<input type="button" id="button" value="Click Me">
+	<h2> Key differences between HTML, CSS, and Programming </h2>
+	<p>If we think of a website as a building, HTML would be the structural framing, (supporting beams, foundations) that hold everything in place and give the building a basic shape. CSS would be the paint, trim, and interior design elements. CSS makes the frame look like a real building, rather than just the bare studs of one.<br>
+	<p>Programming however, turns buildings (that may be structurally sound and pretty into something people can actually use. It adds the doors, windows, shutters, stairs, and elevators. And more importantly, the hinges and machinery behind them. Programming determines if a door leads to the kitchen or the basement, or which direction you turn the key opens a door and which way locks it, it determines which buttons in the elevator take you to which floors. Programming is the logic that determines what happens in response to an action that a user does. A program checks a variable value and reacts differently depending on what’s stored there. Just like a central air system might heat a building if it was cold outside or cool it if it was hot outside.<br>
+	<p>That’s the difference between HTML and CSS and programming. Buildings can have sturdy structures and strong foundations(HTML), with beautiful decor and trim(CSS), but if the doors are all painted shut, the elevators don’t work, and the AC is broken, if the website hasn’t been programmed well, then people can’t really use it. </p>
+	
+	<h2>The main types of programming constructs, as described in the lesson on fundamentals of programming are</h2>
+	<ol>
+	<li>Variables (and their values)</li>
+	<li>IF statements</li>
+	<li>LOOPS</li>
+	</ol>
+	
+	<p style="text-align:center;">Copyright &copy; - 2026 (Delany Burk)</p>
+</body>
+</html>
